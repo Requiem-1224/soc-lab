@@ -7,4 +7,4 @@ lessons learned, false positives, and areas for future enhancement.
 This section is intended to support continuous improvement.
 
 ## 12JAN26
-- how to use github
+- confusion with getting started with and using github
