@@ -12,4 +12,5 @@ enterprise-style tooling.
 - Document findings and lessons learned
 
 
-#
+#Status 
+- Github setup and research
