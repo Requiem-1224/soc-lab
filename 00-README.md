@@ -13,4 +13,4 @@ enterprise-style tooling.
 
 
 ## Status 
-- Github setup and research: 12JAN26
+- Github setup: 12JAN26
