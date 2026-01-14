@@ -15,3 +15,16 @@
 - Linux VM used to simulate a server or workstation
 - OSQuery installed as an endpoint telemetry agent
 - Generates system, user, and network-related telemetry
+  
+## Endpoint Telemetry
+
+OSQuery is installed locally on each endpoint virtual machine.
+It runs as a background service and collects system telemetry including:
+
+- Process execution
+- User account activity
+- File system changes
+- Network connections
+
+Collected telemetry is forwarded to the Security Onion SIEM for detection
+and analysis.
