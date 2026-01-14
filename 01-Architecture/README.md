@@ -6,3 +6,5 @@ flows from endpoints to the central SIEM.
 
 The goal of this section is to provide a clear understanding of
 the lab’s structure before any implementation details.
+
+## Goal
