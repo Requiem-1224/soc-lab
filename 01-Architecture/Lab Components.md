@@ -28,3 +28,17 @@ It runs as a background service and collects system telemetry including:
 
 Collected telemetry is forwarded to the Security Onion SIEM for detection
 and analysis.
+
+## Data Flow
+
+1. OSQuery collects telemetry on each endpoint
+2. Telemetry is forwarded from endpoints to Security Onion
+3. Security Onion processes the data and applies detection logic
+4. Alerts are generated for analyst review and investigation
+
+   ## Design Decisions
+
+- OSQuery was chosen due to its lightweight footprint and cross-platform support
+- Security Onion was selected to provide an enterprise-style SOC platform
+- A minimal number of endpoints were used to reduce system resource usage
+- VirtualBox was used to allow easy replication of the lab environment
