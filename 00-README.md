@@ -1,9 +1,9 @@
 # SOC Lab
 
 ## Overview
-This project documents the design and implementation of a small-scale Security Operations Center (SOC) lab.
-The goal is to practice log collection, detection engineering, alert triage, and incident response using
-enterprise-style tooling.
+The purpose of this SOC lab is to gain hands-on experience in detecting and responding to common security incidents.
+This includes building and configuring a small SOC environment, creating detection logic, and practicing incident response workflows.
+The lab is designed to demonstrate practical SOC skills that can be showcased on a resume or portfolio.
 
 ## Objectives
 - Centralize logs from multiple endpoints
