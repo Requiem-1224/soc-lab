@@ -36,7 +36,7 @@ and analysis.
 3. Security Onion processes the data and applies detection logic
 4. Alerts are generated for analyst review and investigation
 
-   ## Design Decisions
+## Design Decisions
 
 - OSQuery was chosen due to its lightweight footprint and cross-platform support
 - Security Onion was selected to provide an enterprise-style SOC platform
