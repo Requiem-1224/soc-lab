@@ -6,11 +6,8 @@ This includes building and configuring a small SOC environment, creating detecti
 The lab is designed to demonstrate practical SOC skills that can be showcased on a resume or portfolio.
 
 ## Objectives
-- Centralize logs from multiple endpoints
-- Detect common adversary techniques
-- Practice alert investigation and response workflows
-- Document findings and lessons learned
+- Planning the architecture 
 
 
-## Status 
+## Status/Updates
 - Github setup: 12JAN26
