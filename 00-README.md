@@ -12,3 +12,4 @@ The lab is designed to demonstrate practical SOC skills that can be showcased on
 ## Status/Updates
 - 12JAN25: Setup and formated Github
 - 14JAN25: Blueprinting overall lab setup
+- 19JAN25: ISO files downloaded and continued formating Github
