@@ -6,12 +6,12 @@
 - Generates alerts for suspicious activity
 - Provides dashboards and investigation tooling
 
-### Windows Endpoint
+### Windows Endpoint (Windows 10 LTSC 2021 or Windows Server 2019)
 - Windows VM used to simulate a user workstation
 - OSQuery installed as an endpoint telemetry agent
 - Generates process, user, and system activity logs
 
-### Linux Endpoint
+### Linux Endpoint (Ubuntu Server)
 - Linux VM used to simulate a server or workstation
 - OSQuery installed as an endpoint telemetry agent
 - Generates system, user, and network-related telemetry
