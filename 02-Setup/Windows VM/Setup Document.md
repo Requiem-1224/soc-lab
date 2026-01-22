@@ -23,7 +23,7 @@ This document describes the setup and configuration of the Windows endpoint used
 | CPU | 2 vCPUs |
 | RAM | 3–4 GB |
 | Disk | 50GB (Dynamic) |
-| Network Adapter | NAT / Host-Only |
+| Network Adapter | NAT |
 | Snapshots | Enabled |
 
 > A snapshot was taken immediately after OS installation to allow rollback during experimentation.
