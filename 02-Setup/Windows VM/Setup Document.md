@@ -53,8 +53,5 @@ This document describes the setup and configuration of the Windows endpoint used
 
 1. Downloaded OSQuery for Windows from the official OSQuery website.
 2. Installed OSQuery using default installation options.
-3. Verified installation via PowerShell.
+3. Verified installation via Command Prompt
 
-### Validation Command
-```powershell
-osqueryi
