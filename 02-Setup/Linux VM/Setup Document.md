@@ -9,7 +9,7 @@ This document describes the setup and configuration of the Linux endpoint used i
 
 | Category             | Details                                    |
 |---------------------|--------------------------------------------|
-| Operating System     | Ubuntu 22.04 LTS (Server)                  |
+| Operating System     | Ubuntu 24.04 LTS (Server)                  |
 | VM Platform          | VirtualBox                                 |
 | Role                 | Endpoint / Telemetry Source                |
 | Purpose              | Generate endpoint logs for detection experiments |
@@ -34,7 +34,7 @@ This document describes the setup and configuration of the Linux endpoint used i
 
 1. Created a new Linux virtual machine.
 2. Allocated CPU, RAM, and disk resources as listed above.
-3. Installed **Ubuntu 22.04 LTS Server** using default installation options.
+3. Installed **Ubuntu 24.04 LTS Server** using default installation options.
 4. Completed initial setup and created a non-root user.
 5. Installed all available updates:
    ```bash
