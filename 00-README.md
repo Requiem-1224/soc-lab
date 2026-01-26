@@ -14,3 +14,4 @@ The lab is designed to demonstrate practical SOC skills that can be showcased on
 - 14JAN26: Blueprinting overall lab setup
 - 19JAN26: ISO files downloaded and continued formating Github
 - 22Jan26: Installed Windows VM and installed OSquery
+- 26Jan26: installed Linux VM and updated 
