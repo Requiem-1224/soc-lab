@@ -26,7 +26,7 @@ This document describes the setup and configuration of the Linux endpoint used i
 | Network Adapter   | NAT + Host-Only (for SIEM connectivity) |
 | Snapshots         | Enabled                     |
 
-- A snapshot was taken immediately after OS installation to allow rollback during experimentation.
+
 
 ---
 
@@ -39,3 +39,4 @@ This document describes the setup and configuration of the Linux endpoint used i
 5. Installed all available updates:
    ```bash
    sudo apt update && sudo apt upgrade -y
+- A snapshot was taken immediately after OS installation to allow rollback during experimentation.
