@@ -40,3 +40,30 @@ This document describes the setup and configuration of the Linux endpoint used i
    ```bash
    sudo apt update && sudo apt upgrade -y
 - A snapshot was taken immediately after OS installation to allow rollback during experimentation.
+
+## Osquery Installation Troubleshooting (Linux)
+
+During the initial setup of osquery on the Linux VM, I encountered multiple issues related to package installation and repository configuration.
+
+### Issue Encountered
+
+While attempting to install osquery using `apt`, the installation failed due to:
+
+- Repository configuration errors  
+- GPG key retrieval failures  
+- DNS resolution issues (`curl: could not resolve host`)  
+- Incorrect or unreachable repository URLs  
+
+These issues prevented `apt` from locating and installing the osquery package successfully.
+
+### Troubleshooting Steps Taken
+
+To diagnose and resolve the problem, I performed the following actions:
+
+- Verified APT source list files under `/etc/apt/sources.list.d/`  
+- Checked for the presence of the osquery GPG key in `/etc/apt/keyrings/`  
+- Tested network connectivity and DNS resolution using `ping`  
+- Re-attempted repository setup using the official osquery installation steps  
+- Reverted to a clean VM snapshot to rule out system misconfiguration
+
+  https://www.starwindsoftware.com/blog/how-to-install-and-use-osquery-on-ubuntu-and-linux-mint/
