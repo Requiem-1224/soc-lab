@@ -8,4 +8,4 @@ This section is intended to support continuous improvement.
 
 
 - confusion with getting started with and using/learning Github
-- 
+- trouble installing OSquery on linux machince (eventually resolved)
